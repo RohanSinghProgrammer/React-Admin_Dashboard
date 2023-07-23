@@ -6,7 +6,6 @@ import {
 } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import AppLayout from "./layouts/AppLayout";
-import TestPage from "./pages/TestPage";
 import UsersPage from "./pages/UsersPage";
 import ProductsPage from "./pages/ProductsPage";
 import SingleUserPage from "./pages/SingleUserPage";
@@ -23,7 +22,6 @@ function App() {
           <Route path="user/:id" element={<SingleUserPage />} />
           <Route path="product/:id" element={<SingleProductPage />} />
         </Route>
-        <Route path="/test" element={<TestPage />} />
       </>
     )
   );

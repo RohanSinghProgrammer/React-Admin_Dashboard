@@ -17,7 +17,7 @@ type Props = {
     data: {
       name: string;
       visits: number;
-      clicks: number;
+      clicks?: number;
     }[];
   };
   activities?: {
