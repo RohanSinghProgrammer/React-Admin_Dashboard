@@ -1,0 +1,33 @@
+#sidebar {
+  height: calc(100vh - 6.5rem);
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+#sidebar::-webkit-scrollbar {
+  display: none; /* Opera, Safari */
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* Opera, Safari */
+}
+
+.MuiDataGrid-toolbarContainer {
+  flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 480px) {
+  .MuiDataGrid-toolbarContainer {
+    flex-direction: row;
+    margin-right: 0;
+}
+}
+@media screen and (max-width: 1080px) {
+  .MuiDataGrid-toolbarContainer {
+    margin-right: 5rem;
+}
+}
